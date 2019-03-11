@@ -8,3 +8,9 @@ console.log(os.arch());
 console.log(os.cpus());
 //free memory
 console.log(os.freemem());
+
+//store in variables
+const uPlatform = os.platform();
+const uarch = os.arch();
+const ucpu = os.cpus();
+const ufreemem = os.freemem();
