@@ -1,5 +1,6 @@
 ## README
 # check os compactibily with software
-##version 1 run with node
+# To run "run dev oscom softwarename"
+##version 1 run with node --install lodash
 
 #v.2 run own browser by creating command and server
