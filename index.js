@@ -14,7 +14,8 @@ const softWares = [
 ];
 
 console.log(`Welcome ${user.username}`);
-var softname = process.argv[2];
+var sn = process.argv[2];
+var softname = sn.toUpperCase();
 
 softWares.forEach(name => {
     if (name.name === softname) {
@@ -29,9 +30,13 @@ softWares.forEach(name => {
 // } else {
 //     console.log("Software not recongnized")
 // }
-uCpu.forEach(details => {
-    console.log(details.model);
-});
+// uCpu.forEach(details => {
+//     console.log(details.model);
+// });
+
+//
+var log = uCpu[0].model;
+console.log(log);
 console.log("Your OS detials");
 console.log(`\t Platform: ${uPlatform} \n \t Architecture: ${uArch} `);
 console.log(`\t FreeMemory: ${uFreemem} \n \t Architecture: ${uArch} `);
